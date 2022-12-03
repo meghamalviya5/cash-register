@@ -1,0 +1,52 @@
+.container {
+  margin: auto;
+  width: 600px;
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+label {
+  text-align: center;
+}
+
+input {
+  margin: 0.5rem;
+}
+
+button {
+  margin: 0.5rem;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0.5rem;
+}
+
+tr,
+th,
+td {
+  border: 5px solid lightgreen;
+  border-collapse: collapse;
+  width: 20px;
+  background-color: white;
+}
+
+td {
+  text-align: center;
+}
+
+caption {
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.heading {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
