@@ -1,7 +1,12 @@
+:root {
+  --primary-color: lightgreen;
+  --secondary-color: white;
+}
+
 .container {
   margin: auto;
   width: 600px;
-  background-color: lightgreen;
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   width: 50vw;
@@ -20,7 +25,7 @@ button {
 }
 
 table {
-  border: 1px solid black;
+  border: 1px solid;
   border-collapse: collapse;
   margin: 0.5rem;
 }
@@ -28,10 +33,10 @@ table {
 tr,
 th,
 td {
-  border: 5px solid lightgreen;
+  border: 5px solid var(--primary-color);
   border-collapse: collapse;
   width: 20px;
-  background-color: white;
+  background-color: var(--secondary-color);
 }
 
 td {
